@@ -193,40 +193,45 @@ class _QuotePageState extends State<QuotePage> {
   @override
   Widget build(BuildContext context) {
     return Container(
+        padding: EdgeInsets.all(20),
         child: Column(
-      children: [
-        Align(
-          alignment: Alignment.centerLeft,
-          child: Icon(
-            Icons.format_quote,
-            size: 100,
-            color: Colors.orangeAccent,
-          ),
-        ),
-        FutureBuilder(
-          future: _fetchQuote(),
-          builder: (BuildContext context, snaphot) {
-            if (snaphot.hasError) {
-              return Text(snaphot.error.toString());
-            }
-            if (snaphot.connectionState == ConnectionState.done) {
-              return Text(
-                snaphot.data,
-              );
-            }
-            return Text('loading..');
-          },
-        ),
-        Align(
-          alignment: Alignment.centerRight,
-          child: Icon(
-            Icons.format_quote,
-            size: 100,
-            color: Colors.orangeAccent,
-          ),
-        ),
-      ],
-    ));
+          children: [
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Icon(
+                Icons.format_quote,
+                size: 100,
+                color: Colors.orangeAccent,
+              ),
+            ),
+            FutureBuilder(
+              future: _fetchQuote(),
+              builder: (BuildContext context, snaphot) {
+                if (snaphot.hasError) {
+                  return Text(snaphot.error.toString());
+                }
+                if (snaphot.connectionState == ConnectionState.done) {
+                  return Text(
+                    snaphot.data,
+                    style: TextStyle(
+                        color: Colors.orangeAccent,
+                        fontSize: 25,
+                        fontWeight: FontWeight.w700),
+                  );
+                }
+                return Text('loading..');
+              },
+            ),
+            Align(
+              alignment: Alignment.centerRight,
+              child: Icon(
+                Icons.format_quote,
+                size: 100,
+                color: Colors.orangeAccent,
+              ),
+            ),
+          ],
+        ));
   }
 
   Future _fetchQuote() async {
