@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "541085386548",
+    "firebase_url": "https://flashchat-3fc60.firebaseio.com",
+    "project_id": "flashchat-3fc60",
+    "storage_bucket": "flashchat-3fc60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541085386548:android:a0a06bebdbaf0620bc4761",
+        "android_client_info": {
+          "package_name": "com.example.todo_app_tom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541085386548-ijeftld82pm71o5rns937uvh1jusrhpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmH5TcFkA3YfEbbuI71LBMJDy7-gcJbxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541085386548-ijeftld82pm71o5rns937uvh1jusrhpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541085386548:android:a4862a51fdd5b36fbc4761",
+        "android_client_info": {
+          "package_name": "com.tomkmangattu.covid_kerala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541085386548-ijeftld82pm71o5rns937uvh1jusrhpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmH5TcFkA3YfEbbuI71LBMJDy7-gcJbxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541085386548-ijeftld82pm71o5rns937uvh1jusrhpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541085386548:android:98293ed5cb5e4cc5bc4761",
+        "android_client_info": {
+          "package_name": "com.tomkmangattu.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541085386548-ijeftld82pm71o5rns937uvh1jusrhpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmH5TcFkA3YfEbbuI71LBMJDy7-gcJbxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541085386548-ijeftld82pm71o5rns937uvh1jusrhpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
